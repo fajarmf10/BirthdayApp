@@ -13,8 +13,7 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/bg"
-        android:id="@+id/imageView2"/>
+        app:srcCompat="@drawable/bg" />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -33,29 +32,25 @@
                 android:text="@string/line1"
                 android:layout_width="match_parent"
                 android:textSize="@dimen/gede"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="@string/line2"
                 android:layout_width="match_parent"
                 android:textSize="@dimen/gede"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3" />
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="@string/line3"
                 android:layout_width="match_parent"
                 android:textSize="@dimen/gede"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView4" />
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="@string/line4"
                 android:layout_width="match_parent"
                 android:textSize="@dimen/gede"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView5" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 
