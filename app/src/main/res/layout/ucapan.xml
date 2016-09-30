@@ -26,24 +26,28 @@
                 <TextView
                     android:text="@string/line1"
                     android:layout_width="match_parent"
+                    android:textSize="@dimen/gede"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView2" />
 
                 <TextView
                     android:text="@string/line2"
                     android:layout_width="match_parent"
+                    android:textSize="@dimen/gede"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView3" />
 
                 <TextView
                     android:text="@string/line3"
                     android:layout_width="match_parent"
+                    android:textSize="@dimen/gede"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView4" />
 
                 <TextView
                     android:text="@string/line4"
                     android:layout_width="match_parent"
+                    android:textSize="@dimen/gede"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView5" />
             </LinearLayout>
