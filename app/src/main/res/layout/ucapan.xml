@@ -1,57 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    <LinearLayout
-        android:orientation="vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <ImageView
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg"
+        android:id="@+id/imageView2"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:weightSum="1">
+        android:layout_marginBottom="@dimen/ucapan_bawah"
+        android:layout_marginLeft="@dimen/ucapan_kiri"
+        android:layout_marginRight="@dimen/ucapan_kanan"
+        android:layout_marginTop="@dimen/ucapan_atas">
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bg">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <LinearLayout
+            <TextView
+                android:text="@string/line1"
                 android:layout_width="match_parent"
+                android:textSize="@dimen/gede"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginRight="@dimen/ucapan_kanan"
-                android:layout_marginTop="@dimen/ucapan_atas"
-                android:layout_marginLeft="@dimen/ucapan_kiri">
+                android:id="@+id/textView2" />
 
-                <TextView
-                    android:text="@string/line1"
-                    android:layout_width="match_parent"
-                    android:textSize="@dimen/gede"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView2" />
+            <TextView
+                android:text="@string/line2"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/gede"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
 
-                <TextView
-                    android:text="@string/line2"
-                    android:layout_width="match_parent"
-                    android:textSize="@dimen/gede"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView3" />
+            <TextView
+                android:text="@string/line3"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/gede"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
 
-                <TextView
-                    android:text="@string/line3"
-                    android:layout_width="match_parent"
-                    android:textSize="@dimen/gede"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView4" />
+            <TextView
+                android:text="@string/line4"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/gede"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+        </LinearLayout>
+    </ScrollView>
 
-                <TextView
-                    android:text="@string/line4"
-                    android:layout_width="match_parent"
-                    android:textSize="@dimen/gede"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView5" />
-            </LinearLayout>
-        </ScrollView>
-
-    </LinearLayout>
-</ScrollView>
+</RelativeLayout>

@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="ucapan_kiri">10dp</dimen>
     <dimen name="ucapan_atas">110dp</dimen>
+    <dimen name="ucapan_bawah">10dp</dimen>
     <dimen name="ucapan_kanan">105dp</dimen>
     <dimen name="gede">14sp</dimen>
 </resources>
