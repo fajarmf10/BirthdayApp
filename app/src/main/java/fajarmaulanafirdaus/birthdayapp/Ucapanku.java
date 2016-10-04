@@ -25,5 +25,4 @@ public class Ucapanku extends AppCompatActivity{
         finish();
 
     }
-
 }
