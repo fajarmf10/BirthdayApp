@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Apa sih ini?</string>
     <string name="pret">Coba deh diklik</string>
+    <string name="headertext">Halo Vania Ayu Puspamaniar!</string>
+    <string name="footertext">Dari Fajar Maulana Firdaus</string>
     <string name="titlebeneran">Selamat Ulang Tahun!</string>
     <string name="line1">Selamat ulang tahun yang ke-19, Vania Ayu Puspamaniar!\n\nSemoga semakin sukses di FK UNAIR, semakin berbakti kepada orang tua, makin cantik, makin pinter. Dan yang terpenting, semoga langgeng sama Eko sampe nikah nanti!\n</string>
     <string name="line2">Titip salam ya buat mama papa kamu. Jangan lupa ajarin Eci juga biar bisa jadi cowok pinter sepinter kamu! Kalo udah bisa nyetir mobil, hati-hati ya, jangan suka ngebut haha.\n</string>

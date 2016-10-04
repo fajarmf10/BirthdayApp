@@ -13,7 +13,7 @@ public class Ucapanku extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ucapan);
+        setContentView(R.layout.view2);
     }
 
     public void onBackPressed(){
